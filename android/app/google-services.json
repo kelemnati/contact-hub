@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "919381510134",
+    "project_id": "contact-hub-8be3f",
+    "storage_bucket": "contact-hub-8be3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919381510134:android:42dc6b8941c05e7ec329d7",
+        "android_client_info": {
+          "package_name": "com.example.contact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrMT8WALuNh0RaCUkMEYU6xC9FzkAE_nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919381510134:android:a3e58d75acac00c9c329d7",
+        "android_client_info": {
+          "package_name": "com.example.contact_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrMT8WALuNh0RaCUkMEYU6xC9FzkAE_nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
