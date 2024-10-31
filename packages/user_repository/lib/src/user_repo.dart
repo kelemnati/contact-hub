@@ -16,4 +16,10 @@ abstract class UserRepository {
 
   // for reset password
   Future<void> resetPassword(String email);
+
+  // to push data to the firestore database
+  Future<void> setUserData(MyUser user);
+
+  // to get data from the firestore database
+  Future<MyUser> getMyUser(String myUserId);
 }
