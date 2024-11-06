@@ -2,9 +2,12 @@
 
 import 'dart:ffi';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:user_repository/src/models/models.dart';
 
 abstract class UserRepository {
+  Stream<User?> get user;
+
   // for sign in we use email and password
   Future<void> signIn(String emial, String password);
 
